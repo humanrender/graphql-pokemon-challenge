@@ -33,6 +33,7 @@
   ],
   "devDependencies": {
     "@types/styled-components": "^5.1.4",
-    "graphql-tag": "^2.10.1"
+    "graphql-tag": "^2.10.1",
+    "prettier": "^2.3.2"
   }
 }
