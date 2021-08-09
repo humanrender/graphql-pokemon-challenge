@@ -7,11 +7,19 @@ export interface PokemonStats {
   speed: number | null;
 }
 
+export interface PokemonMove {
+  name: string;
+  learnMethod: string;
+}
+
 export interface Pokemon {
   id: string;
   name: string;
   image: string;
   type: string;
   abilities: string[];
+  availableMoves: {
+    [key: string]: PokemonMove[];
+  };
   stats: PokemonStats;
 }

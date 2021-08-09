@@ -3,6 +3,14 @@ import ApolloClient, { gql } from 'apollo-boost';
 export const ALL_POKEMON = gql`
   query ALL_POKEMON {
     Pokemons(first: 151) {
+      name
+    }
+  }
+`;
+
+export const GET_POKEMON = gql`
+  query POKEMON($pokemon: String!) {
+    Pokemon(name: $pokemon) {
       id
       name
       image
@@ -15,6 +23,10 @@ export const ALL_POKEMON = gql`
       stats {
         name
         value
+      }
+      moves {
+        name
+        learnMethod
       }
     }
   }

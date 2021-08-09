@@ -1,0 +1,314 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonStats when loading should render the loading view 1`] = `
+<div
+  className="sc-htpNat iTxZMQ"
+>
+  <div
+    className="sc-bxivhb fjbmad"
+  >
+    <p>
+      Loading
+    </p>
+  </div>
+  <div>
+    <h3
+      className="sc-bZQynM hXicKp"
+    >
+      Stats
+    </h3>
+    <div
+      className="sc-dnqmqq eWlhsD"
+    >
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        Speed 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          -
+        </span>
+      </p>
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        Special-Defense 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          -
+        </span>
+      </p>
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        Special-Attack 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          -
+        </span>
+      </p>
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        Defense 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          -
+        </span>
+      </p>
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        Attack 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          -
+        </span>
+      </p>
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        HP 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          -
+        </span>
+      </p>
+    </div>
+    <h3
+      className="sc-bZQynM hXicKp"
+    >
+      Selected moves
+    </h3>
+    <ol
+      className="sc-gqjmRU hxwYYq"
+    />
+  </div>
+  <ul
+    className="sc-iwsKbI ftKUSZ"
+  />
+</div>
+`;
+
+exports[`PokemonStats with a pokemon should render the default view 1`] = `
+<div
+  className="sc-htpNat iTxZMQ"
+>
+  <div
+    className="sc-bxivhb fjbmad"
+  >
+    <img
+      className="sc-ifAKCX fhCdPi"
+      src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
+    />
+    <p
+      className="sc-EHOje dWaoIP"
+    >
+      snorlax
+    </p>
+    <button
+      className="sc-bwzfXH kfFXpC"
+      onClick={[Function]}
+    >
+      Save Pokemon
+    </button>
+  </div>
+  <div>
+    <h3
+      className="sc-bZQynM hXicKp"
+    >
+      Stats
+    </h3>
+    <div
+      className="sc-dnqmqq eWlhsD"
+    >
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        Speed 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          456
+        </span>
+      </p>
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        Special-Defense 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          678
+        </span>
+      </p>
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        Special-Attack 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          567
+        </span>
+      </p>
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        Defense 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          234
+        </span>
+      </p>
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        Attack 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          345
+        </span>
+      </p>
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        HP 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          123
+        </span>
+      </p>
+    </div>
+    <h3
+      className="sc-bZQynM hXicKp"
+    >
+      Selected moves
+    </h3>
+    <ol
+      className="sc-gqjmRU hxwYYq"
+    />
+  </div>
+  <ul
+    className="sc-iwsKbI ftKUSZ"
+  >
+    <li>
+      <h2
+        className="sc-bdVaJa caOGxZ"
+      >
+        machine
+      </h2>
+      <ul
+        className="sc-gZMcBi cOcRph"
+      >
+        <li
+          onClick={[Function]}
+        >
+          defense-curl
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`PokemonStats without pokemon should render the default view 1`] = `
+<div
+  className="sc-htpNat iTxZMQ"
+>
+  <div
+    className="sc-bxivhb fjbmad"
+  />
+  <div>
+    <h3
+      className="sc-bZQynM hXicKp"
+    >
+      Stats
+    </h3>
+    <div
+      className="sc-dnqmqq eWlhsD"
+    >
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        Speed 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          -
+        </span>
+      </p>
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        Special-Defense 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          -
+        </span>
+      </p>
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        Special-Attack 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          -
+        </span>
+      </p>
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        Defense 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          -
+        </span>
+      </p>
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        Attack 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          -
+        </span>
+      </p>
+      <p
+        className="sc-gzVnrw bEUQaE"
+      >
+        HP 
+        <span
+          className="sc-htoDjs cOUezd"
+        >
+          -
+        </span>
+      </p>
+    </div>
+    <h3
+      className="sc-bZQynM hXicKp"
+    >
+      Selected moves
+    </h3>
+    <ol
+      className="sc-gqjmRU hxwYYq"
+    />
+  </div>
+  <ul
+    className="sc-iwsKbI ftKUSZ"
+  />
+</div>
+`;
